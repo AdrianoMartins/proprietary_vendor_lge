@@ -230,3 +230,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/firmware/wcnss.b05:system/vendor/firmware/wcnss.b05 \
     vendor/lge/awifi/proprietary/vendor/firmware/wcnss.b06:system/vendor/firmware/wcnss.b06 \
     vendor/lge/awifi/proprietary/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt
+
+# Google proprietary files for AOSP Keyboard
+PRODUCT_COPY_FILES += \
+    vendor/lge/awifi/proprietary/lib/libjni_latinime.so:system/lib/libjni_latinime.so \
+    vendor/lge/awifi/proprietary/lib/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/lge/awifi/proprietary/lib/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
