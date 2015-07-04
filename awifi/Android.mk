@@ -27,3 +27,15 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 include $(BUILD_PREBUILT)
 
 endif
+
+ifeq ($(TARGET_DEVICE),v500)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libtime_genoff
+LOCAL_SRC_FILES := proprietary/lib/libtime_genoff.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+include $(BUILD_PREBUILT)
+
+endif
