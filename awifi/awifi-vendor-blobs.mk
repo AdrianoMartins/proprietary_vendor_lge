@@ -211,6 +211,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/awifi/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so
 
+# Time Service (AOSP)
+PRODUCT_COPY_FILES += \
+    vendor/lge/awifi/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so
+
 # Video firmware (V500-30A)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \

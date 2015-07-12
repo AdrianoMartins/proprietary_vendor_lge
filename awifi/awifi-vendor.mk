@@ -17,4 +17,8 @@
 # Prebuilt vendor/libs needed for compilation
 PRODUCT_PACKAGES += libtime_genoff
 
+# Time Service
+PRODUCT_PACKAGES += \
+    TimeService
+
 $(call inherit-product, vendor/lge/awifi/awifi-vendor-blobs.mk)
