@@ -89,7 +89,7 @@ PRODUCT_COPY_FILES += \
 
 # DRM
 PRODUCT_COPY_FILES += \
-    vendor/lge/awifi/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/lge/awifi/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/lge/awifi/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/lge/awifi/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/lge/awifi/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
